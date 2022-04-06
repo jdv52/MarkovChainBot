@@ -1,6 +1,22 @@
-from LoaderV2 import Loader
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# ----------------------------------------------------------------------------
+# Created By  : Jayson De La Vega
+# Created Date: 4/6/22
+# version = '1.0'
+# ---------------------------------------------------------------------------
+""" Driver class for the Markov Chain Text Generator application """
+# ---------------------------------------------------------------------------
+# Imports
+# ---------------------------------------------------------------------------
+from Loader import Loader
+
 
 def main():
+    """
+    Main function loop. Includes a menu interface for user to interact with
+    the Loader class.
+    """
     print("Welcome to Markov Chain Text Generator")
     print("Enter the desired order: ")
     order = int(input())
